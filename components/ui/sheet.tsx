@@ -13,11 +13,10 @@ const SheetTrigger = SheetPrimitive.Trigger
 
 const SheetClose = SheetPrimitive.Close
 
-const SheetPortal = ({
-  className,
-  ...props
-}: SheetPrimitive.DialogPortalProps) => (
-  <SheetPrimitive.Portal className={cn(className)} {...props} />
+// Corrected SheetPortal: It just passes props through,
+// just like we fixed in the Dialog component.
+const SheetPortal = (props: SheetPrimitive.DialogPortalProps) => (
+  <SheetPrimitive.Portal {...props} />
 )
 SheetPortal.displayName = SheetPrimitive.Portal.displayName
 
@@ -136,6 +135,7 @@ export {
   Sheet,
   SheetTrigger,
   SheetClose,
+  SheetPortal, // Added this
   SheetContent,
   SheetHeader,
   SheetFooter,
