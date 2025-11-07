@@ -1,7 +1,5 @@
 # FullStack Discord Clone: Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL & TypeScript.
 
-Credits: [Antonio Erdeljac](https://github.com/AntonioErdeljac)
-
 Features:
 
 - Client form validation and handling using react-hook-form
@@ -31,7 +29,7 @@ Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/nayak-nirmalya/discord-clone.git
+
 ```
 
 ### Install packages
